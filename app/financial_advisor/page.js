@@ -14,12 +14,7 @@ export default function Home() {
       gap={2} // curly bracket just for numbers or javascipt variables or expressions 
       // auto overflow means scrollbar only visible when needed 
       >
-
-
-        <Box border={"1px solid #333"} width='80%' height='700px' overflow="auto" padding="32px" marginTop="16px">  
-          <ButtonGrid></ButtonGrid>
-        </Box>
-
+        FA 
       </Box>
 
   

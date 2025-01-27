@@ -17,8 +17,9 @@ export default function Home() {
 
 
         <Box border={"1px solid #333"} width='80%' height='700px' overflow="auto" padding="32px" marginTop="16px">  
-          <ButtonGrid></ButtonGrid>
+            quiz
         </Box>
+
 
       </Box>
 
