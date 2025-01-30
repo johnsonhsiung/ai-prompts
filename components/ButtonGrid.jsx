@@ -5,21 +5,21 @@ import { Grid2, Button } from '@mui/material';
 const ButtonGrid = () => {
   return (
     <Grid2 container spacing={2} padding={2}>
-      <Grid2 item xs={12} sm={6} md={4}>
+      <Grid2 item="true" xs={12} sm={6} md={4}>
         <Link href="/short_story" passHref>
           <Button variant="contained" fullWidth>
             Short Story Generator
           </Button>
         </Link>
       </Grid2>
-      <Grid2 item xs={12} sm={6} md={4}>
-        <Link href="/financial_advisor" passHref>
+      <Grid2 item="true" xs={12} sm={6} md={4}>
+        <Link href="/personas" passHref>
           <Button variant="contained" fullWidth>
-            Financial Advisor
+            Personas
           </Button>
         </Link>
       </Grid2>
-      <Grid2 item xs={12} sm={6} md={4}>
+      <Grid2 item="true" xs={12} sm={6} md={4}>
         <Link href="/quiz" passHref>
           <Button variant="contained" fullWidth>
             Quiz Generator 

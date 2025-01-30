@@ -1,4 +1,3 @@
-"use client";
 import ButtonGrid from "@/components/ButtonGrid";
 import { Box, Grid2, Stack, Item, Typography, Divider } from "@mui/material";
 
@@ -17,7 +16,8 @@ export default function Home() {
       >
 
 
-        <Box border={"1px solid #333"} width='80%' height='700px' overflow="auto" padding="32px" marginTop="16px">  
+        <Box border={"1px solid #333"} width='80%' height='700px' overflow="auto" padding="32px" marginTop="16px"> 
+            hi 
           <ButtonGrid></ButtonGrid>
         </Box>
 
